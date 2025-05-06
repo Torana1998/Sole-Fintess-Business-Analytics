@@ -1,5 +1,3 @@
-# 🏋️ Sole Fitness Business Analytics Project
-
 This project was completed as part of the NUS Master of Technology in Enterprise Business Analytics programme.  
 We collaborated with a Singapore-based e-commerce SME to integrate analytics by creating a unified data base, formulating metrics to diversify revenue and optimise advertising expenditure.
 
