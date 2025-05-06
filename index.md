@@ -52,6 +52,6 @@ We collaborated with a Singapore-based e-commerce SME to integrate analytics by 
 
 ---
 
-📄 [Read the Full Report](./04%20-%20sole-fitness-project-report.pdf)
+📄 [Read the Full Report](https://github.com/Torana1998/Sole-Fintess-Business-Analytics/blob/main/04%20-%20sole-fintess-project-report.pdf)
 
 🔗 [Back to Portfolio](https://torana1998.github.io/)
