@@ -1,6 +1,3 @@
----
-title: "Sole Fitness Business Analytics"
----
 
 # 🏋️ Sole Fitness Business Analytics Project
 
