@@ -5,7 +5,7 @@ title: "Sole Fitness Business Analytics"
 # 🏋️ Sole Fitness Business Analytics Project
 
 This project was completed as part of the NUS Master of Technology in Enterprise Business Analytics programme.  
-We collaborated with a Singapore-based e-commerce SME to integrate analytics by creating a unified database, formulating metrics to diversify revenue, and optimising advertising expenditure.
+We collaborated with a Singapore-based e-commerce SME to integrate analytics by creating a unified data base, formulating metrics to diversify revenue and optimise advertising expenditure.
 
 ---
 
@@ -17,6 +17,17 @@ We collaborated with a Singapore-based e-commerce SME to integrate analytics by 
 - 📈 **Ad Spend Optimisation**: Created a **ROAS** (Return on Ad Spend) metric and used correlation analysis to uncover inefficiencies, enabling a **4% reduction in advertising costs**.
 
 > 💡 *Note: As this project was conducted for a live business, datasets are confidential. However, the report and code provide sufficient context to understand the scope and solutions delivered.*
+
+---
+
+## 📁 Project Files
+
+| File | Description |
+|------|-------------|
+| `01 - postgreSQL database.sql` | SQL script for creating the data warehouse schema. |
+| `02 - sole-fitness-clustering.ipynb` | Python notebook for clustering analysis on product metrics. |
+| `03 - sole-fitness-dashboards.pbix` | Power BI dashboard visualising multi-platform performance. |
+| `04 - sole-fitness-project-report.pdf` | Final project report with full methodology, visuals, and recommendations. |
 
 ---
 
@@ -32,41 +43,36 @@ We collaborated with a Singapore-based e-commerce SME to integrate analytics by 
 
 ---
 
-## 📁 Project Files
+## 🧾 Report Overview
 
-| File | Description |
-|------|-------------|
-| `01 - postgreSQL database.sql` | SQL script for creating the data warehouse schema |
-| `02 - sole-fitness-clustering.ipynb` | Clustering analysis on product metrics |
-| `03 - sole-fitness-dashboards.pbix` | Power BI dashboard (.pbix) file |
-| `04 - sole-fitness-project-report.pdf` | Final project report |
+- Integrated sales and ad data from three major channels: website, Shopee and Lazada on unified postgreSQL database. 
+- Formulated KPIs and custom metrics like Revenue Driver Score (RDS) and ROAS.
+- Delivered PowerBI dashboard to visualise insights to reduce platform over-reliance and optimise advertisement ROI.
+- Proposed analytical backed recommendations for Sole Fitness to diversify revenue streams and optimise advertisement expenditure. 
 
 ---
 
-## 🧾 Data Model & Dashboards
+## 🖼️ Key Visuals
 
-### 🧩 Entity-Relationship Diagram
-
-![ERD](assets/ERD.png)
+### 🗂️ Entity Relationship Diagram (ERD)
+<img src="assets/ERD.png" alt="Physical ERD" width="80%" />
 
 ---
 
 ### 📊 Sales Trend Dashboard
-
-![Sales Trend](assets/Sales%20Trend%20Dashboard.png)
+<img src="assets/Sales Trend Dashboard.png" alt="Sales Trend Dashboard" width="80%" />
 
 ---
 
 ### 📈 Revenue Driver Score Dashboard
-
-![RDS](assets/Revenue%20Driver%20Score%20Dashboard.png)
+<img src="assets/Revenue Driver Score Dashboard.png" alt="Revenue Driver Score Dashboard" width="80%" />
 
 ---
 
-### 💸 ROAS & Ad Spending Dashboard
-
-![ROAS](assets/ROAS%20Dashboard.png)
+### 💸 ROAS & Ad Spend Dashboard
+<img src="assets/ROAS Dashboard.png" alt="ROAS Dashboard" width="80%" />
 
 ---
 
 🔗 [Back to Portfolio](https://torana1998.github.io/)
+
