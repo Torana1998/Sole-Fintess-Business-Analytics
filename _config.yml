@@ -1,4 +1,3 @@
-title: Sole Fitness Analytics
-description: Business analytics project exploring clustering, dashboards, and SQL database design
-theme: jekyll-theme-minimal
+title: "Sole Fitness Business Analytics"
+theme: minima
 markdown: kramdown
