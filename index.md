@@ -1,4 +1,3 @@
-
 # 🏋️ Sole Fitness Business Analytics Project
 
 This project was completed as part of the NUS Master of Technology in Enterprise Business Analytics programme.  
