@@ -1,52 +1,51 @@
 # 📊 Sole Fitness Analytics
 
-A business analytics project developed for the *EBA5001: Practice Module in Analytics Project Management* as part of the Master’s in Business Analytics (NUS).  
-Our team, **FitForward Analytics**, partnered with Sole Fitness Singapore to tackle real-world retail and marketing inefficiencies using data-driven solutions.
-Note: As this project was done for a operational company, the data is confidential, relevant details can be found in 04 - sole-fitness-project-report.pdf
+A business analytics project developed for the *EBA5001: Practice Module in Analytics Project Management* at NUS.  
+Our team, **FitForward Analytics**, partnered with Sole Fitness Singapore to address retail and marketing inefficiencies through data-driven solutions.
+
+> 📌 *Note: Due to confidentiality, raw data is not shared. Key findings and methods are documented in the final report.*
+
 ---
 
 ## 🚀 Project Overview
 
-Sole Fitness, a sports equipment SME in Singapore, was facing challenges in unifying sales data sources (Website, Lazada, Shopee), optimising their advertising spend and product mix across its website and marketplace platforms (Lazada and Shopee).  
-This project uses data integration on postgreSQL, clustering, regression modelling, and power BI dashboarding. 
+Sole Fitness, a fitness equipment SME in Singapore, faced challenges integrating sales data from its website, Lazada, and Shopee, and lacked visibility on advertising ROI and product category performance.
+
+This project delivered end-to-end analytics using PostgreSQL, clustering, regression, and Power BI dashboards.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
-### 🧩 Business Objectives
+### 🧩 Business Goals
+- Integrate sales data across all platforms into a single database.
+- Reduce revenue dependence on treadmill sales.
+- Optimise ad spend by platform and product category.
 
-- Developed a postgreSQL data base that integrates sales data sources from Sole Fitness Website, Lazada and Shopee pages. 
-- Diversify revenue sources by reducing reliance on treadmill sales.
-- Optimise advertising spend across platforms and product categories.
-
-### 🧪 Technical Deliverables
-
-- Cleaned and integrated multi-source sales and ad data on postgreSQL
-- Implemented clustering (K-Means) for product segmentation.
-- Built correlation metrics to link ad spend with revenue.
-- Developed Power BI dashboards updated via automated ETL.
+### 🧪 Technical Outcomes
+- Built a normalised **PostgreSQL** database for sales and ad data.
+- Applied **K-Means clustering** to segment products.
+- Conducted **correlation analysis** between ad spend and sales.
+- Developed interactive **Power BI dashboards** refreshed via automated ETL.
 
 ---
 
-## 🧰 Tools & Tech Stack
+## 🧰 Tech Stack
 
-- **PostgreSQL** for database modelling
-- **Sentence-BERT** for product name matching
-- **Python** (pandas, scikit-learn, seaborn, matplotlib)
-- **Power BI** for dashboards
-- **Google Colab** for collaboration
-- **Excel** for source data analysis
+- **PostgreSQL** – Data warehousing  
+- **Python** – Analysis (`pandas`, `scikit-learn`, `matplotlib`, `seaborn`)  
+- **Sentence-BERT** – Product name matching  
+- **Power BI** – Dashboard development  
+- **Google Colab**, **Excel** – Data processing & collaboration  
 
 ---
 
-## 📂 Project file Structure as on Github
+## 📁 File Structure
 
-The project files are organised as follows:
+| File Name                             | Description                                                         |
+|--------------------------------------|---------------------------------------------------------------------|
+| `01 - postgreSQL database.sql`       | SQL dump to recreate the PostgreSQL schema and base tables          |
+| `02 - sole-fitness-clustering.ipynb` | Clustering notebook using scikit-learn                              |
+| `03 - sole-fitness-dashboards.pbix`  | Power BI dashboard file                                             |
+| `04 - sole-fitness-project-report.pdf`| Full project documentation with insights, visuals, and recommendations |
 
-| File Name                             | Description                                                                 |
-|--------------------------------------|-----------------------------------------------------------------------------|
-| `01 - postgreSQL database.sql`       | SQL dump file for recreating the PostgreSQL database schema and data       |
-| `02 - sole-fitness-clustering.ipynb` | Python notebook for clustering analysis using scikit-learn |
-| `03 - sole-fitness-dashboards.pbix`  | Power BI dashboard visualising key project findings                         |
-| `04 - sole-fitness-project-report.pdf`| Final project report documenting business problems, methodology, analysis, and recommendations |
